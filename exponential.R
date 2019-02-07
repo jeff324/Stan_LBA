@@ -1,5 +1,5 @@
 rm(list=ls())
-setwd("C:/Users/Jeffrey/Dropbox/backup/Research Projects/Rstan/Code/Exponential/")
+setwd("C:/...") #needs to be same directory as exponential.stan
 library(rstan)
 #make simualated data
 dat = rexp(500,1)
